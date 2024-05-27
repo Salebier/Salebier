@@ -22,7 +22,7 @@ TC_Embrapa é uma API desenvolvida com FastAPI que oferece endpoints para autent
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/tc_embrapa.git
+    git clone https://github.com/RedCanister/TC_Embrapa.git
     cd tc_embrapa
     ```
 
