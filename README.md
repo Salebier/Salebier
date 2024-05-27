@@ -118,4 +118,4 @@ TC_Embrapa é uma API desenvolvida com FastAPI que oferece endpoints para autent
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+Este projeto está licenciado sob a Licença MIT.
