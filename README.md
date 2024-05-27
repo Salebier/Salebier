@@ -8,8 +8,8 @@ TC_Embrapa é uma API desenvolvida com FastAPI que oferece endpoints para autent
 
 ## Contribuidores
 
-- Octávio Ruiz Thomas
 - Jorge Kayodê Lima Trindade
+- Octávio Ruiz Thomas
 
 ## Instalação
 
