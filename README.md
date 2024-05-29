@@ -49,19 +49,18 @@ TC_Embrapa é uma API desenvolvida com FastAPI que oferece endpoints para autent
 
 ## Uso
 
-Endpoints
-Páginas de Login e Cadastro
-GET /page: Retorna a página de login.
-GET /cadastro: Retorna a página de cadastro.
-Registro e Login de Usuários
-POST /register: Registra um novo usuário.
-POST /login: Realiza login do usuário.
-Visualizações de Dados
-GET /producao: Visualização dos dados de produção.
-GET /processamento: Visualização dos dados de processamento.
-GET /comercializacao: Visualização dos dados de comercialização.
-GET /importacao: Visualização dos dados de importação.
-GET /exportacao: Visualização dos dados de exportação.
+## Endpoints principais
+
+- `GET /`: Redireciona para a página de login.
+- `GET /page`: Retorna a página de login.
+- `GET /cadastro`: Retorna a página de cadastro.
+- `POST /register`: Registra um novo usuário.
+- `POST /login`: Realiza login de usuário.
+- `GET /producao`: Visualiza dados de produção.
+- `GET /processamento`: Visualiza dados de processamento.
+- `GET /comercializacao`: Visualiza dados de comercialização.
+- `GET /importacao`: Visualiza dados de importação.
+- `GET /exportacao`: Visualiza dados de exportação.
 
 ## Funcionalidades
 
