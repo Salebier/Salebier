@@ -37,12 +37,14 @@ TC_Embrapa é uma API desenvolvida com FastAPI que oferece endpoints para autent
     pip install -r requirements.txt
     ```
 
-4. Configure o banco de dados:
-    ```bash
-    python -c "from utils.make import engine; from sqlalchemy import MetaData; metadata = MetaData(bind=engine); metadata.create_all()"
-    ```
+4. Configure o banco de dados (caso o projeto não tenha o arquivo "database/clientes_database.db"):
+    1. Execute o arquivo "utils/make.py" ele gerará o "clientes_database.db".
 
-5. Inicie a aplicação:
+5. Baixe os dados da Embrapa:
+    1. Baixe o [notebook.ipynb](https://github.com/RedCanister/TC_Embrapa/blob/master/Data_Embrapa/Dados_Embrapa/TrabalhoFiap%20-%20Feedback.ipynb) e execute-o para baixar os arquivos de dados.
+    2. Após o download, mova os arquivos para o diretório `TC_Embrapa/Data_Embrapa/Dados_Embrapa/JSON`.
+
+6. Inicie a aplicação:
     ```bash
     uvicorn main:app --reload
     ```
@@ -68,7 +70,3 @@ TC_Embrapa é uma API desenvolvida com FastAPI que oferece endpoints para autent
 - Registro de novos usuários.
 - Login de usuários registrados.
 - Visualização de dados extraídos do site da Embrapa em diferentes formatos de gráficos.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT.
