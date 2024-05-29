@@ -34,6 +34,7 @@ TC_Embrapa é uma API desenvolvida com FastAPI que oferece endpoints para autent
 
 3. Instale as dependências:
     ```bash
+    cd App_Embrapa
     pip install -r requirements.txt
     ```
 
