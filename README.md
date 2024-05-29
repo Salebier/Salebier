@@ -49,65 +49,19 @@ TC_Embrapa é uma API desenvolvida com FastAPI que oferece endpoints para autent
 
 ## Uso
 
-### Endpoints principais
-
-#### Registro de Usuário
-
-- **Endpoint**: `/register`
-- **Método**: `POST`
-- **Descrição**: Registra um novo usuário.
-
-- **Exemplo de Request**:
-    ```json
-    {
-        "email": "usuario@exemplo.com",
-        "password": "senha_secreta"
-    }
-    ```
-
-- **Exemplo de Response**:
-    ```json
-    {
-        "message": "User created successfully",
-        "user": {
-            "email": "usuario@exemplo.com"
-        }
-    }
-    ```
-
-#### Login de Usuário
-
-- **Endpoint**: `/login`
-- **Método**: `POST`
-- **Descrição**: Realiza login do usuário.
-
-- **Exemplo de Request**:
-    ```json
-    {
-        "email": "usuario@exemplo.com",
-        "password": "senha_secreta"
-    }
-    ```
-
-- **Exemplo de Response**:
-    ```json
-    {
-        "message": "Login successful"
-    }
-    ```
-
-#### Visualização de Dados
-
-- **Endpoint**: `/visualization`
-- **Método**: `GET`
-- **Descrição**: Retorna a visualização dos dados (autenticação necessária).
-
-- **Exemplo de Response**:
-    ```json
-    {
-        "message": "Visualização"
-    }
-    ```
+Endpoints
+Páginas de Login e Cadastro
+GET /page: Retorna a página de login.
+GET /cadastro: Retorna a página de cadastro.
+Registro e Login de Usuários
+POST /register: Registra um novo usuário.
+POST /login: Realiza login do usuário.
+Visualizações de Dados
+GET /producao: Visualização dos dados de produção.
+GET /processamento: Visualização dos dados de processamento.
+GET /comercializacao: Visualização dos dados de comercialização.
+GET /importacao: Visualização dos dados de importação.
+GET /exportacao: Visualização dos dados de exportação.
 
 ## Funcionalidades
 
