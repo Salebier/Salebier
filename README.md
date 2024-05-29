@@ -50,6 +50,11 @@ TC_Embrapa é uma API desenvolvida com FastAPI que oferece endpoints para autent
     uvicorn main:app --reload
     ```
 
+7. Em caso de problemas durante o processo de login que resultem em um erro relacionado ao módulo JWT, você pode executar o seguinte código para garantir que a instalação do JWT esteja correta:
+    ```bash
+    pip install --upgrade --force-reinstall PyJWT
+    ```
+
 ## Uso
 
 ## Endpoints principais
